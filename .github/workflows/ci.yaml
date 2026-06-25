@@ -43,7 +43,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: terry620033/hello-gitops
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT_TOKEN }}
         path: hello-gitops
 
     - name: Update image tag in gitops repo
