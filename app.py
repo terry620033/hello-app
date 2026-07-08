@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return '<h1>Hello from Kubernetes! K8s Cluster is Powered by CM4, PiTray & TuringPi. Version 2.8</h1>'
+    return '<h1>Hello from Kubernetes! K8s Cluster is Powered by CM4, PiTray & TuringPi. Version 2.18</h1>'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
